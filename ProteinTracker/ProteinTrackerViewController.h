@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HistoryViewController.h"
 
 @interface ProteinTrackerViewController : UIViewController
+{
+    int total;
+    NSMutableArray *amountHistory;
+    NSMutableArray *runIncremental;
+}
+@property (weak, nonatomic) IBOutlet UILabel *totalLabel;
+@property (weak, nonatomic) IBOutlet UILabel *goalLabel;
+@property (weak, nonatomic) IBOutlet UITextField *amountTextField;
+- (IBAction)addButtonClicked:(id)sender;
+- (IBAction)unwindtoProteinTracker:(UIStoryboardSegue *) segue;
+- (void) goalChanged:(NSNotification *)notification;
 
 @end

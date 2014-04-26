@@ -21,6 +21,8 @@
 		E9147DE318C25BB600D48896 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9147DC518C25BB600D48896 /* UIKit.framework */; };
 		E9147DEB18C25BB600D48896 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9147DE918C25BB600D48896 /* InfoPlist.strings */; };
 		E9147DED18C25BB600D48896 /* ProteinTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9147DEC18C25BB600D48896 /* ProteinTrackerTests.m */; };
+		E9147DF818C265DF00D48896 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9147DF718C265DF00D48896 /* HistoryViewController.m */; };
+		E9147DFE18C2B58E00D48896 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9147DFD18C2B58E00D48896 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		E9147DE818C25BB600D48896 /* ProteinTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProteinTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		E9147DEA18C25BB600D48896 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9147DEC18C25BB600D48896 /* ProteinTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProteinTrackerTests.m; sourceTree = "<group>"; };
+		E9147DF618C265DF00D48896 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		E9147DF718C265DF00D48896 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		E9147DFD18C2B58E00D48896 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,9 @@
 				E9147DD718C25BB600D48896 /* ProteinTrackerViewController.m */,
 				E9147DD918C25BB600D48896 /* Images.xcassets */,
 				E9147DC818C25BB600D48896 /* Supporting Files */,
+				E9147DF618C265DF00D48896 /* HistoryViewController.h */,
+				E9147DF718C265DF00D48896 /* HistoryViewController.m */,
+				E9147DFD18C2B58E00D48896 /* Settings.bundle */,
 			);
 			path = ProteinTracker;
 			sourceTree = "<group>";
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9147DFE18C2B58E00D48896 /* Settings.bundle in Resources */,
 				E9147DDA18C25BB600D48896 /* Images.xcassets in Resources */,
 				E9147DCC18C25BB600D48896 /* InfoPlist.strings in Resources */,
 				E9147DD518C25BB600D48896 /* Main.storyboard in Resources */,
@@ -253,6 +262,7 @@
 				E9147DCE18C25BB600D48896 /* main.m in Sources */,
 				E9147DD218C25BB600D48896 /* ProteinTrackerAppDelegate.m in Sources */,
 				E9147DD818C25BB600D48896 /* ProteinTrackerViewController.m in Sources */,
+				E9147DF818C265DF00D48896 /* HistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
